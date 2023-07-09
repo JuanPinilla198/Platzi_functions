@@ -16,5 +16,5 @@ def read_cvs(path):
 
 
 if __name__ == '__main__':
-  data = read_cvs('./csv/data.csv')
+  data = read_cvs('data.csv')
   print(data)
